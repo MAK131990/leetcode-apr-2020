@@ -23,7 +23,6 @@ func moveZeroes(nums []int) {
 			count++
 		}
 	}
-	fmt.Println(count, nums)
 	for i := count; i < length; i++ {
 		nums[i] = 0
 	}
